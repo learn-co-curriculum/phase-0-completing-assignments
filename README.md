@@ -15,37 +15,35 @@ your first assignment!
 All assignments are hosted on GitHub. In order to work on them, however, you
 will need to complete work on your local machine. The general process is:
 
-- Go to the assignment's GitHub page
-- Create a personal copy (a 'fork') of the assignment
-- Download your personal copy (referred to as 'cloning') to your environment
+- Click the blue "Fork" button in Canvas
+- Create a personal copy (a 'fork') of the assignment in GitHub
+- Download your personal copy (referred to as 'cloning') to your computer
 - Complete the required work
-- Upload the work you've done to your personal copy of the assignment on GitHub
+- Submit your completed work to Canvas
 
-Luckily, the `learn-co` gem you installed when you set up your local environment
-will streamline the process considerably. In this assignment, you'll learn the
-workflow that you will be using to complete your assignments.
-
-You can follow along with the steps in the videos below, or continue reading to
-get a more detailed explanation of the process of working on lessons in Canvas.
+In this assignment, you'll learn the workflow that you will be using to complete
+your assignments. You can follow along with the steps in the videos below, or
+continue reading to get a more detailed explanation of the process of working on
+lessons in Canvas.
 
 ## WSL: Completing Assignments Code Along
 
 For Windows users, follow along with this video:
 
-TO DO: RECORD WINDOWS VIDEO
+<iframe width="640" height="480" src="https://www.youtube.com/embed/wkM_3VZT2Nw" frameborder="0" allowfullscreen></iframe>
 
 ## MacOS: Completing Assignments Code Along
 
 For Mac users, follow along with this video:
 
-TO DO: RECORD MAC VIDEO
+<iframe width="640" height="480" src="https://www.youtube.com/embed/otfhhI-5qtM" frameborder="0" allowfullscreen></iframe>
 
 ### A Quick Note on Organizing Work on Your Machine
 
 Throughout this course, you will be downloading many assignments, so it is
 important to keep your code organized. If you haven't yet, we recommend that you
-go through the steps in [the previous
-lesson](https://github.com/learn-co-curriculum/phase-0-organizing-work-on-your-computer)
+go through the steps in
+[the previous lesson](https://github.com/learn-co-curriculum/phase-0-organizing-work-on-your-computer)
 to set up a directory where you can keep all of your work for this course.
 
 > **Note:** The process we'll go through in this lesson will create sub-folders
@@ -55,12 +53,12 @@ to set up a directory where you can keep all of your work for this course.
 
 ### Accessing GitHub and Forking
 
-All the lessons in this course have a corresponding repository in GitHub. On
-this page in Canvas, you should see three icons in the **upper right** corner.
-The first says **Fork**. The second is a button that looks like a large-headed
-cat (GitHub's 'Octocat' icon), which will open the lesson's GitHub repo
-_without_ forking. The third is a flag, which you can use to submit an _issue_
-for the lesson (e.g., if you find a typo or other error).
+All the lessons in this course have a corresponding repository (repo) in GitHub.
+On this page in Canvas, you should see three icons in the **upper right**
+corner. The first says **Fork**. The second is a button that looks like a
+large-headed cat (GitHub's 'Octocat' icon), which will open the lesson's GitHub
+repo _without_ forking. The third is a flag, which you can use to submit an
+_issue_ for the lesson (e.g., if you find a typo or other error).
 
 One way to fork an assignment is to click the Octocat button to go to the
 assignment's GitHub repo and fork directly from that page. (We'll go through
@@ -97,9 +95,9 @@ repository to your local machine.
 
 To download the repository for this lesson, make sure you're in your personal
 fork on GitHub, then click the **Code** button. A pop-up will appear which shows
-several options for cloning: `HTTPS`, `SSH`, and `GitHub CLI`. **Before doing
-anything else**, be sure to switch to **SSH**. With **SSH** selected, you should
-see what looks sort of like an email in the box below, starting with
+several options for cloning: **HTTPS**, **SSH**, and **GitHub CLI**. **Before
+doing anything else**, be sure to switch to **SSH**. With **SSH** selected, you
+should see what looks sort of like an email in the box below, starting with
 `git@github.com:`. You should see your GitHub name after the `:`.
 
 > **Aside:** Why SSH? If you followed the setup instructions, you have added
@@ -148,9 +146,9 @@ to access the assignment files.
 $ cd phase-0-completing-assignments
 ```
 
-Now, if you've set up VS Code, type `code .` to open up a text editor window
-with access to all of the assignment's files. These instructions are now also
-available on your local machine in `README.md`.
+Now type `code .` to open up a text editor window with access to all of the
+assignment's files. These instructions are now also available on your local
+machine in `README.md`.
 
 > Note: the first time you open a directory in Visual Studio Code, you'll see a
 > message asking "Do you trust the authors of the files in this folders?" This
@@ -174,8 +172,8 @@ run it.
 
 Run `learn test` in the terminal. This command will install all the lesson
 dependencies and run the test. You should again see a flurry of text as
-dependencies are installed, then the results of your test. By cloning this
-assignment down, you've already passed the test!
+dependencies are installed. Then you'll see the results of your test. By cloning
+this assignment down, you've already passed the test!
 
 ```console
 This assignment
@@ -197,10 +195,10 @@ as both **Submitted** and **Complete**. A URL to your fork of the assignment has
 been submitted in Canvas, so you are ready to move on to the next lesson.
 
 Each assignment will be different and will include instructions on what is
-required to complete it. Some labs will have many tests. You can run `learn
-test` as many times as you'd like while working to solve these labs. You will
-submit your work to Canvas each time you do, but the assignment will be marked
-**Incomplete** until all tests are passing.
+required to complete it. Some labs will have many tests. You can run
+`learn test` as many times as you'd like while working to solve these labs. You
+will submit your work to Canvas each time you do, but the assignment will be
+marked **Incomplete** until all tests are passing.
 
 ### Your Work in GitHub
 
